@@ -41,7 +41,7 @@ public class Address {
     }
 
     public String show() {
-        String adress = "adress Ivanenko is " + country + " " + getIndex() + " " + city + " " +
+        String adress = "adress  Ivanenko is " + country + " " + getIndex() + " " + city + " " +
                 getStreet() + " " + getApartment() + "," + getHouse();
         return adress;
     }
